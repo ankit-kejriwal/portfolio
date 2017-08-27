@@ -1,14 +1,12 @@
-(function(){
-
 'use strict;'
-
-angular.module('portfolioApp',['ngRoute'])
+angular.module('workApp',[]);
+angular.module('portfolioApp',['ngRoute','workApp'])
     .controller('portfolioController',portfolioController)
     .config(['$routeProvider',function($routeProvider){
         $routeProvider
         .when('/about',{
             controller:'portfolioController',
-            templateUrl:'views/about.html'
+            templateUrl:'modules/about/views/about.html'
         })
         
         .when('/academics',{
@@ -18,7 +16,7 @@ angular.module('portfolioApp',['ngRoute'])
         
         .when('/work',{
             controller:'workController',
-            templateUrl:'views/work.html'
+            templateUrl:'modules/work/views/work.html'
         })
         .when('/contact',{
             controller:'',
@@ -32,7 +30,4 @@ angular.module('portfolioApp',['ngRoute'])
     function portfolioController($scope){
     
     }
-    
-    
-})();
 
