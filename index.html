@@ -4,29 +4,26 @@
     <title>Ankit Kejriwal - a Web Developer</title>
     <link rel="stylesheet" href="https:////netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
-    <link rel="icon" href="images/BgImage.png" />
 </head>
-<body>
-    <div id="container">
-        <header>
-            <div class="row headerRow">
-                    <div class="col-md-8 col-sm-8 col-xs-4 headerDiv"></div>
-                    <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">About</div>
-                    <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">Acadmeics</div>
-                    <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">Work</div>
-                    <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">Contact</div>
-            </div> 
-        </header>
+<body ng-app="portfolioApp">
+    <div id="container" ng-controller="portfolioController">
+       <header>
+        <div class="row headerRow">
+                <div class="col-md-8 col-sm-8 col-xs-4 headerDiv"></div>
+                <div class="col-md-1 col-sm-1 col-xs-2 headerDiv"><a href="#!/about">About</a></div>
+                <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">Academics</div>
+                <div class="col-md-1 col-sm-1 col-xs-2 headerDiv"><a href="#!/work">Work</a></div>
+                <div class="col-md-1 col-sm-1 col-xs-2 headerDiv">Contact</div>
+        </div> 
+    </header>
     <main>
-        <section>
-            <div class="imgBox">
-                <img src="css/images/BgImage.png" class="bgImage" />
-            </div>
-        </section>
-
+        <div ng-view class="viewClass"></div>
     </main>
     </div>
 </body> 
+    <script src="https://code.angularjs.org/1.6.0/angular.min.js"></script>   
    `<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://code.angularjs.org/1.6.0/angular.min.js"></script>    
+    <script src="https://code.angularjs.org/1.2.20/angular-route.js"></script>
+    <script src="controllers/app.js"></script>
+    <script src="controllers/aboutController.js"></script>
 </html>

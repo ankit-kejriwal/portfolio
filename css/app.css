@@ -3,33 +3,102 @@
     padding: 0;
     margin: 0;
 }
+p{
+    margin: 0;
+}
 header{
     height: 75px;
-    background-color: teal;
 }
 .headerDiv{
     height: 100%;
     padding: 0;
-    color: white;
+    color: teal;
     text-align: center;
     vertical-align: middle;
     line-height: 75px;
 }
-.bgImage{
-    height: 100%;
-    width: 100%;
-}
+
 html, body, #container {
     height: 100%;
     overflow: hidden;
+    background-color: #EEEED2;
 }
 main {
     height: calc(100% - 75px);
+}
+section{
+    height: 100%;
+    width: 100%;
 }
 .headerRow{
     height: 100%
 }
 .imgBox{
-    height: 100%;
     width: 100%;
+    height: 100%;
+    background: url(images/BGIMAGE.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.imgContent{
+    text-align: center;
+    font-family: sans-serif;
+    color: teal;
+}
+.viewClass{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: content-box;
+}
+.workSection{
+    padding: 10px;
+    background-color: white;
+    overflow-y: auto;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
+.nameClass{
+    color: #F64F19;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.tenureClass{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.tenClass{
+    text-align: right;
+    font-size: 16px;
+    top: 23px;
+    color: teal;
+}
+.firstDiv{
+    width: 100%;
+    height: 13%;
+    padding-bottom: 10px;
+}
+.fullHeight{
+    height: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.projectHeader{
+    border-radius: 8px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-top: 4px;
+    height: 26px;
+    font-size: 18px;
+}
+.boldClass{
+    font-weight: bold;
+}
+.liMargin{
+    margin-left: 2%;
 }
