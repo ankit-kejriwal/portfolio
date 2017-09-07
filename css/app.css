@@ -216,16 +216,7 @@ section{
 
 
 @media only screen and (max-width: 650px) {
-    main {
-        height: calc(100% - 180px);
-    }
-/*
-    footer{
-        height: 105px;
-        background-color: teal;
-    }
-*/
-    .nameSize{
+ .nameSize{
         font-size: small;
     }
     .footerDiv{
