@@ -31,12 +31,14 @@ html, body, #container {
     background-color: #EEEED2;
 }
 main {
-    height: calc(100% - 175px);
+    height: calc(100% - 75px);
 }
+/*
 footer{
     height: 100px;
     background-color: teal;
 }
+*/
 section{
     height: 100%;
     width: 100%;
@@ -45,11 +47,11 @@ section{
     height: 100%
 }
 .footerRow{
-    height: 100%;
+    background: teal;
 }
 .imgBox{
     width: 100%;
-    height: 100%;
+    height: 80%;
     background: url(images/BGIMAGE.jpg) no-repeat;
     background-size: contain;
     background-position: center;
@@ -217,10 +219,12 @@ section{
     main {
         height: calc(100% - 180px);
     }
+/*
     footer{
         height: 105px;
         background-color: teal;
     }
+*/
     .nameSize{
         font-size: small;
     }
