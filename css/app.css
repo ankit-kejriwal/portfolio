@@ -18,6 +18,12 @@ header{
     vertical-align: middle;
     line-height: 75px;
 }
+.footerDiv{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+}
 
 html, body, #container {
     height: 100%;
@@ -25,7 +31,11 @@ html, body, #container {
     background-color: #EEEED2;
 }
 main {
-    height: calc(100% - 75px);
+    height: calc(100% - 175px);
+}
+footer{
+    height: 100px;
+    background-color: teal;
 }
 section{
     height: 100%;
@@ -33,6 +43,9 @@ section{
 }
 .headerRow{
     height: 100%
+}
+.footerRow{
+    height: 100%;
 }
 .imgBox{
     width: 100%;
@@ -56,6 +69,7 @@ section{
 .workSection{
     background-color: white;
     overflow-y: auto;
+    overflow-x: hidden;
 }
 .logo{
     width: 20%;
@@ -85,7 +99,6 @@ section{
 .firstDiv{
     width: 100%;
     height: 13%;
-    padding-bottom: 10px;
 }
 .fullHeight{
     height: 100%;
@@ -141,6 +154,7 @@ section{
 .sidePadding{
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 12px;
 }
 .pdfIcon{
     background: url(images/adobe_icon.png) no-repeat;
@@ -150,4 +164,67 @@ section{
 }
 .headIcon{
     color: white
+}
+.nameSize{
+    font-size: large;
+    padding-top: 8px;
+}
+.phoneIcon{
+    background: url(images/phoneIcon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: sub;
+    padding-left: 10px;
+}
+.mailIcon{
+    background: url(images/mailIcon.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: sub;
+    padding-left: 10px;
+}
+.imageDisplay{
+    display: inline-block;
+    padding-left: 10px;
+}
+.githubIcon{
+    background: url(images/githubIcon.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    padding-left: 10px;
+}
+.linkedinIcon{
+    background: url(images/linkedinIcon.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.fontStyle{
+    font-weight: bold;
+}
+.secondDiv{
+    padding-bottom: 12px;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+    main {
+        height: calc(100% - 180px);
+    }
+    footer{
+        height: 105px;
+        background-color: teal;
+    }
+    .nameSize{
+        font-size: small;
+    }
+    .footerDiv{
+        font-size: smaller;
+    }
 }
