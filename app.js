@@ -8,21 +8,10 @@ angular.module('portfolioApp',['ngRoute','workApp'])
             controller:'portfolioController',
             templateUrl:'modules/about/views/about.html'
         })
-        
-        .when('/academics',{
-            controller:'',
-            templateUrl:''
-        })
-        
         .when('/work',{
             controller:'workController',
             templateUrl:'modules/work/views/work.html'
         })
-        .when('/contact',{
-            controller:'',
-            templateUrl:''
-        })
-        
         .otherwise({redirectTo:'/about'})
     
     }]);
