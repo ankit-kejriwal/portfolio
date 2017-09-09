@@ -3,5 +3,5 @@ angular.module('workApp',[])
 
 workController.$inject = ['$scope'];
 function workController($scope){
-    $scope.companyName = 'Mu Sigma Business Solution Pvt. Ltd.';
+    $scope.companyName = 'Mu Sigma Business Solution';
 }
