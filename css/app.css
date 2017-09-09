@@ -19,7 +19,7 @@ header{
     line-height: 75px;
 }
 .footerDiv{
-    color: white;
+    color: #f7f7f7;
     font-weight: bold;
     text-align: center;
     font-size: small;
@@ -111,13 +111,10 @@ section{
 }
 .projectHeader{
     border-radius: 8px;
-    background-color: teal;
-    color: white;
+    color: #5b6b6b;
     font-weight: bold;
-    padding-left: 1%;
-    padding-top: 4px;
-    height: 26px;
-    font-size: 18px;
+    font-size: 22px;
+    text-decoration: underline;
 }
 .boldClass{
     font-weight: bold;
@@ -143,7 +140,7 @@ section{
 }
 
 .tag {
-  background: #36b5b5;
+  background: #5b6b6b;
   border-radius: 10px;
   color: white;
   display: inline-block;
@@ -158,7 +155,7 @@ section{
 .sidePadding{
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 .pdfIcon{
     background: url(images/adobe_icon.png) no-repeat;
@@ -210,6 +207,7 @@ section{
 
 .fontStyle{
     font-weight: bold;
+    font-size: 16px;
 }
 .footerRowWork{
     background: teal;
